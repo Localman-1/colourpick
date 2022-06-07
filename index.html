@@ -12,9 +12,6 @@
     <div class="main_div">
         <div class="bg_img"><img src="./system-sector.svg"></div>
         <div class="sub_main_div">
-            <div class="svg_style_div">
-                <img src="./Brainstorming-bro.svg" class="svg_style" alt="Brainstorming-bro" srcset="">
-            </div>
             <div class="color_div">
                 <div class="color_sub_div">
                     <h2>Color Preview</h2>
@@ -47,12 +44,11 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: opacity(0.8)
+            filter:brightness(.1)
         }
 
-        .bg_img {
-            filter: blur(1);
-        }
+            
+        
 
         h2 {
             color: rgb(228, 161, 15);
@@ -110,7 +106,7 @@
 
         .color_div {
             width: 30%;
-            background-color: rgba(236, 219, 219, 0.933);
+            background-color: white;
             height: 25rem;
             align-items: center;
             justify-self: center;
@@ -127,7 +123,7 @@
         .input_button {
             width: 60%;
             height: 2rem;
-            background-color: rgb(228, 161, 15);
+            background-color: r;
             border: none;
             border-radius: 3px;
             padding: 1px;
@@ -136,6 +132,8 @@
             font-size: 1rem;
             text-align: center;
             margin-top: 30px;
+            background-color: rgb(228, 161, 15);
+            outline: none;
         }
 
         .input {
@@ -147,11 +145,12 @@
             background-color: transparent;
             text-align: left;
             border: 1px solid rgb(228, 161, 15);
-
+            outline: none;
+            
 
 
         }
-
+        
         .svg_style_div {
             width: 35%;
 
